@@ -1,0 +1,77 @@
+* {
+  font-family: sans-serif;
+  letter-spacing: 0.09em;
+  font-size: 16px;
+  color: #575757;
+}
+
+.container {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.container > div {
+  padding: 24px 16px;
+  margin: 16px 0;
+  border-radius: 8px;
+}
+
+.inputArea {
+  background: rgba(239,235,224);
+}
+
+.incompleteArea {
+  background: rgba(247,195,191);
+}
+
+.completeArea {
+  background: rgba(138,200,207);
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+}
+
+input, button {
+  font-size: 12px;
+  border-radius: 16px;
+  border: none;
+}
+
+input {
+  width: 420px;
+  padding: 8px 20px;
+  outline: none;
+}
+
+button {
+  background-color: #676767;
+  color: white;
+  min-width: 70px;
+  padding: 8px 12px;
+  margin-left: 8px;
+}
+
+button:hover {
+  background-color: #474747;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 8px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+li > div {
+  width: 400px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
